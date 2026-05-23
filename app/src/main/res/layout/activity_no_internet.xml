@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- MPU LOGO -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/mpu_logo"
+        android:scaleType="fitCenter"/>
+
+    <!-- WIFI OFF ICON -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_no_internet"/>
+
+    <!-- TITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="No Internet Connection"
+        android:textColor="#001F5B"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-bold"
+        android:gravity="center"/>
+
+    <!-- DESCRIPTION -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Please check your connection and try again"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"/>
+
+    <!-- RETRY BUTTON -->
+    <Button
+        android:id="@+id/retryButton"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Retry"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:backgroundTint="#001F5B"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>
