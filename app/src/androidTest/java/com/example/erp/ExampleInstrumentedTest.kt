@@ -1,4 +1,4 @@
-package com.example.mpuerp2
+package com.example.erp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

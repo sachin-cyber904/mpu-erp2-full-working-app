@@ -1,16 +1,13 @@
-package com.example.mpuerp2
-
+package com.example.erp
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
-import android.view.animation.AnimationUtils
 import android.view.animation.AlphaAnimation
 import android.view.animation.ScaleAnimation
 import android.view.animation.AnimationSet
 import android.widget.ImageView
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
@@ -72,7 +69,7 @@ class SplashActivity : AppCompatActivity() {
             logo.clearAnimation()
             startActivity(Intent(this, MainActivity::class.java))
             finish()
-        }, 3000)
+        }, 1000)
     }
 
     override fun onDestroy() {

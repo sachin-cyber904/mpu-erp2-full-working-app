@@ -1,4 +1,4 @@
-package com.example.mpuerp2
+package com.example.erp
 
 import org.junit.Test
 

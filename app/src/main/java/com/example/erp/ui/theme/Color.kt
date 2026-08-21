@@ -1,4 +1,4 @@
-package com.example.mpuerp2.ui.theme
+package com.example.erp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

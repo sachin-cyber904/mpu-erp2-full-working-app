@@ -9,15 +9,15 @@
         android:id="@+id/topStrip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text=""
         android:textColor="#C8102E"
         android:background="#FFFFFF"
         android:textSize="13sp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:paddingTop="28dp"
+        android:paddingTop="32dp"
         android:paddingBottom="8dp"
         android:elevation="4dp"/>
-
     <!-- ✅ SWIPE REFRESH WRAPPING WEBVIEW -->
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefresh"
@@ -32,7 +32,16 @@
             <WebView
                 android:id="@+id/webView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/spinnerImage"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_x="174dp"
+                    android:layout_y="288dp"
+                    android:src="@drawable/spinner_ring" />
+            </WebView>
 
             <!-- ✅ CUSTOM LOADING SPINNER OVERLAY -->
             <LinearLayout
@@ -43,12 +52,6 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:visibility="visible">
-
-                <ImageView
-                    android:id="@+id/spinnerImage"
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/spinner_ring"/>
 
                 <TextView
                     android:layout_width="wrap_content"
